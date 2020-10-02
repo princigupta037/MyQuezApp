@@ -5,10 +5,12 @@ import * as serviceWorker from './serviceWorker';
 import QuizApp from '../src/QuizService/index';
 
 ReactDOM.render(
+
   <React.StrictMode>
     <QuizApp />
   </React.StrictMode>,
   document.getElementById('root')
+  
 );
 
 serviceWorker.unregister();

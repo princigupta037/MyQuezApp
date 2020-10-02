@@ -5,7 +5,6 @@ import question from './question';
 import Result from '../components/Result';
 
 class QuizApp extends Component{
-
     state ={
         questionBank:[],
         score:0,
